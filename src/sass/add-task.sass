@@ -1,0 +1,19 @@
+@import 'variables'
+
+.input
+    @include input-select
+    width: calc(100% - 16px)
+
+.button__submit__inactive
+    @include button
+    background-color: inherit
+    color: #aaa
+    cursor: auto
+    box-shadow: inset 0px 0px 3px 0px #aaa
+
+.button__submit__active
+    @include button
+    background-color: #0079bf
+    color: #fff
+    &:hover
+        background-color: #0067a3

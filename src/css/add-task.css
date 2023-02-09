@@ -1,0 +1,50 @@
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/add-task.sass */
+.input {
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  padding: 7px 8px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline-style: none;
+  width: calc(100% - 16px);
+}
+
+/* line 7, ../../Projects/kanban-board/my-app/src/sass/add-task.sass */
+.button__submit__inactive {
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px 6px 2px 4px;
+  min-width: 100px;
+  background-color: inherit;
+  color: #aaa;
+  cursor: auto;
+  box-shadow: inset 0px 0px 3px 0px #aaa;
+}
+
+/* line 14, ../../Projects/kanban-board/my-app/src/sass/add-task.sass */
+.button__submit__active {
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px 6px 2px 4px;
+  min-width: 100px;
+  background-color: #0079bf;
+  color: #fff;
+}
+
+/* line 18, ../../Projects/kanban-board/my-app/src/sass/add-task.sass */
+.button__submit__active:hover {
+  background-color: #0067a3;
+}
+
+/*# sourceMappingURL=add-task.css.map */

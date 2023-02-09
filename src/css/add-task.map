@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "add-task.css",
+	"sources": [
+		"../sass/add-task.sass",
+		"../sass/variables.sass"
+	],
+	"sourcesContent": [
+		"@import 'variables';\n\n.input {\n    @include input-select;\n    width: calc(100% - 16px); }\n\n.button__submit__inactive {\n    @include button;\n    background-color: inherit;\n    color: #aaa;\n    cursor: auto;\n    box-shadow: inset 0px 0px 3px 0px #aaa; }\n\n.button__submit__active {\n    @include button;\n    background-color: #0079bf;\n    color: #fff;\n    &:hover {\n        background-color: #0067a3; } }\n",
+		"@mixin header-footer {\n    height: 55px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    text-align: start;\n    background-color: #0067A3;\n    color: #FFFFFF;\n    padding: 0px 20px; }\n\n@mixin transition {\n    transition: all;\n    transition-duration: 0.5s; }\n\n@mixin button {\n    font-size: 1.125rem;\n    border: none;\n    cursor: pointer;\n    border-radius: 5px;\n    padding: 4px 6px 2px 4px;\n    min-width: 100px; }\n\n@mixin input-select {\n    font-size: 1.125rem;\n    line-height: 1.25rem;\n    padding: 7px 8px;\n    margin-bottom: 15px;\n    background-color: #fff;\n    border-radius: 5px;\n    border: none;\n    outline-style: none; }\n\n@mixin scroll {\n    &__scroll::-webkit-scrollbar {\n        border-radius: 20px;\n        width: 12px;\n        padding: 0px 20px; }\n    &__scroll::-webkit-scrollbar-track {\n        background: #fff;\n        border-radius: 20px; }\n    &__scroll::-webkit-scrollbar-thumb {\n        background: #cbcbcb;\n        border-radius: 20px; }\n    &__scroll::-webkit-scrollbar-thumb:hover {\n        background: #aaa;\n        border-radius: 20px; } }\n\n\n\n\na {\n    text-decoration: none; }\n\n// select\n//     max-width: 258px\n//     overflow: hidden\n\n\n$main-color: #0079BF;\n"
+	],
+	"names": [],
+	"mappings": ";ACkDA,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CAAG;;;ADjD5B,AAAA,MAAM,CAAC;ECqBH,SAAS,EAAE,QAAQ;EACnB,WAAW,EAAE,OAAO;EACpB,OAAO,EAAE,OAAO;EAChB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,IAAI;EACtB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,IAAI;ED1BnB,KAAK,EAAE,iBAAiB;CAAG;;;AAE/B,AAAA,yBAAyB,CAAC;ECStB,SAAS,EAAE,QAAQ;EACnB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,OAAO;EACf,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,eAAe;EACxB,SAAS,EAAE,KAAK;EDZhB,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,0BAA0B;CAAG;;;AAE7C,AAAA,uBAAuB,CAAC;ECEpB,SAAS,EAAE,QAAQ;EACnB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,OAAO;EACf,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,eAAe;EACxB,SAAS,EAAE,KAAK;EDLhB,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,IAAI;CAEuB;;;AALtC,AAII,uBAJmB,AAIlB,MAAM,CAAC;EACJ,gBAAgB,EAAE,OAAO;CAAG"
+}

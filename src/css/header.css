@@ -1,0 +1,103 @@
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  background-color: #0067A3;
+  color: #FFFFFF;
+  padding: 0px 20px;
+}
+
+/* line 5, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__title {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+/* line 9, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__title:hover {
+  text-decoration: underline;
+}
+
+/* line 11, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user, .header__user__closed {
+  background: url("../img/arrow-up.svg") no-repeat right center;
+  transition: all;
+  transition-duration: 0.5s;
+  display: block;
+  min-width: 60px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 8px;
+  position: relative;
+  padding: 16px;
+}
+
+/* line 22, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user__closed, .header__user__closed__closed {
+  background: url("../img/arrow-down.svg") no-repeat right center;
+}
+
+/* line 24, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu, .header__user-menu__closed {
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 64px;
+  right: 7px;
+  opacity: 1;
+  visibility: visible;
+  transition: all;
+  transition-duration: 0.5s;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  min-width: 120px;
+  min-height: 46px;
+  font-size: 0.875rem;
+  box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* line 41, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu__closed, .header__user-menu__closed__closed {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  cursor: default;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+/* line 47, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu::before, .header__user-menu__closed::before {
+  content: url(../img/rombik.svg);
+  position: absolute;
+  top: -8px;
+  right: 31px;
+}
+
+/* line 52, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu__li, .header__user-menu__closed__li {
+  list-style: none;
+  margin: 3px 0;
+}
+
+/* line 55, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu__li__a, .header__user-menu__closed__li__a {
+  color: black;
+}
+
+/* line 57, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu__li__a:hover, .header__user-menu__closed__li__a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=header.css.map */

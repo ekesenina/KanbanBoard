@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "footer.css",
+	"sources": [
+		"../sass/footer.sass",
+		"../sass/variables.sass"
+	],
+	"sourcesContent": [
+		"@import 'variables';\n\n.footer {\n    @include header-footer;\n    font-size: 1.125rem;\n    &__tasks {\n        display: flex;\n        &__active {\n            margin-right: 35px; } } }\n",
+		"@mixin header-footer {\n    height: 55px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    text-align: start;\n    background-color: #0067A3;\n    color: #FFFFFF;\n    padding: 0px 20px; }\n\n@mixin transition {\n    transition: all;\n    transition-duration: 0.5s; }\n\n@mixin button {\n    font-size: 1.125rem;\n    border: none;\n    cursor: pointer;\n    border-radius: 5px;\n    padding: 4px 6px 2px 4px;\n    min-width: 100px; }\n\n@mixin input-select {\n    font-size: 1.125rem;\n    line-height: 1.25rem;\n    padding: 7px 8px;\n    margin-bottom: 15px;\n    background-color: #fff;\n    border-radius: 5px;\n    border: none;\n    outline-style: none; }\n\n@mixin scroll {\n    &__scroll::-webkit-scrollbar {\n        border-radius: 20px;\n        width: 12px;\n        padding: 0px 20px; }\n    &__scroll::-webkit-scrollbar-track {\n        background: #fff;\n        border-radius: 20px; }\n    &__scroll::-webkit-scrollbar-thumb {\n        background: #cbcbcb;\n        border-radius: 20px; }\n    &__scroll::-webkit-scrollbar-thumb:hover {\n        background: #aaa;\n        border-radius: 20px; } }\n\n\n\n\na {\n    text-decoration: none; }\n\n// select\n//     max-width: 258px\n//     overflow: hidden\n\n\n$main-color: #0079BF;\n"
+	],
+	"names": [],
+	"mappings": ";ACkDA,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CAAG;;;ADjD5B,AAAA,OAAO,CAAC;ECDJ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,KAAK;EACjB,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,QAAQ;EDJjB,SAAS,EAAE,QAAQ;CAIc;;;AAHhC,AAAD,cAAQ,CAAC;EACL,OAAO,EAAE,IAAI;CAEc;;;AAD1B,AAAD,sBAAS,CAAC;EACN,YAAY,EAAE,IAAI;CAAG"
+}

@@ -1,0 +1,61 @@
+@import 'variables'
+
+.description 
+  display: flex
+  justify-content: center
+  &__text,
+  &__text__edit
+    padding: 20px 28px
+    height: calc(100vh - 195px)
+    width: 100vw
+    margin: 0px 30px
+    overflow-wrap: anywhere
+    border-radius: 10px
+    color: black
+    background-color: #fff
+    @include scroll
+    &__edit
+      background-color: #ebecf0
+    &__title
+      display: flex
+      justify-content: space-between
+      height: 30px
+      overflow: hidden
+      &__name
+        display: flex
+        width: 620px
+    &__p
+      margin: 35px 0 20px
+      max-width: 100%
+      font-size: 1.125rem
+      height: 420px
+      @include scroll
+      &__scroll
+        max-height: calc(100% - 85px)
+        overflow-y: auto
+        padding-right: 12px
+        position: relative
+      &:hover::after
+        color: black
+      &::after
+        content: "Edit"
+        color: #cbcbcb
+        font-size: 0.875rem
+        margin-left: 10px
+.textarea
+    font-family: inherit
+    font-size: 1.125rem
+    border: none
+    padding: 10px
+    margin-left: -10px
+    border-radius: 10px
+    background-color: #fff
+    width: 100%
+    height: calc(100vh - 325px)
+    margin-top: 25px
+    margin-bottom: 20px
+    outline: none
+    overflow: auto
+    resize: none
+    @include scroll
+

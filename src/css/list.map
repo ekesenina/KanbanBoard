@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "list.css",
+	"sources": [
+		"../sass/list.sass",
+		"../sass/variables.sass"
+	],
+	"sourcesContent": [
+		"@import 'variables';\n\n.list {\n    flex: 1;\n    max-width: 282px;\n    margin: 0 10px;\n    padding: 12px 0 12px 12px;\n    background-color: #ebecf0;\n    border-radius: 10px;\n    @include scroll;\n    &__scroll {\n        max-height: calc(100vh - 210px);\n        overflow-y: auto;\n        padding-right: 12px; }\n    &:first-child {\n        margin-left: 20px; }\n    &:last-child {\n        margin-right: 20px; }\n    &__title {\n        font-size: 1.125rem;\n        font-weight: 400;\n        margin-bottom: 10px;\n        color: #000000; } }\n",
+		"@mixin header-footer {\n    height: 55px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    text-align: start;\n    background-color: #0067A3;\n    color: #FFFFFF;\n    padding: 0px 20px; }\n\n@mixin transition {\n    transition: all;\n    transition-duration: 0.5s; }\n\n@mixin button {\n    font-size: 1.125rem;\n    border: none;\n    cursor: pointer;\n    border-radius: 5px;\n    padding: 4px 6px 2px 4px;\n    min-width: 100px; }\n\n@mixin input-select {\n    font-size: 1.125rem;\n    line-height: 1.25rem;\n    padding: 7px 8px;\n    margin-bottom: 15px;\n    background-color: #fff;\n    border-radius: 5px;\n    border: none;\n    outline-style: none; }\n\n@mixin scroll {\n    &__scroll::-webkit-scrollbar {\n        border-radius: 20px;\n        width: 12px;\n        padding: 0px 20px; }\n    &__scroll::-webkit-scrollbar-track {\n        background: #fff;\n        border-radius: 20px; }\n    &__scroll::-webkit-scrollbar-thumb {\n        background: #cbcbcb;\n        border-radius: 20px; }\n    &__scroll::-webkit-scrollbar-thumb:hover {\n        background: #aaa;\n        border-radius: 20px; } }\n\n\n\n\na {\n    text-decoration: none; }\n\n// select\n//     max-width: 258px\n//     overflow: hidden\n\n\n$main-color: #0079BF;\n"
+	],
+	"names": [],
+	"mappings": ";ACkDA,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CAAG;;;ADjD5B,AAAA,KAAK,CAAC;EACF,IAAI,EAAE,CAAC;EACP,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,gBAAgB;EACzB,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,IAAI;CAcI;;;ACWtB,AAAD,aAAS,AAAA,mBAAmB,CAAC;EACzB,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,QAAQ;CAAG;;;AACvB,AAAD,aAAS,AAAA,yBAAyB,CAAC;EAC/B,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;CAAG;;;AACzB,AAAD,aAAS,AAAA,yBAAyB,CAAC;EAC/B,UAAU,EAAE,OAAO;EACnB,aAAa,EAAE,IAAI;CAAG;;;AACzB,AAAD,aAAS,AAAA,yBAAyB,AAAA,MAAM,CAAC;EACrC,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;CAAG;;;ADnCzB,AAAD,aAAS,CAAC;EACN,UAAU,EAAE,mBAAmB;EAC/B,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;CAAG;;;AAX9B,AAYI,KAZC,AAYA,YAAY,CAAC;EACV,WAAW,EAAE,IAAI;CAAG;;;AAb5B,AAcI,KAdC,AAcA,WAAW,CAAC;EACT,YAAY,EAAE,IAAI;CAAG;;;AACxB,AAAD,YAAQ,CAAC;EACL,SAAS,EAAE,QAAQ;EACnB,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,OAAO;CAAG"
+}

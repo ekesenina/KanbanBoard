@@ -1,0 +1,23 @@
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/item.sass */
+.list__item {
+  list-style: none;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  padding: 7px 8px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow-wrap: anywhere;
+}
+
+/* line 12, ../../Projects/kanban-board/my-app/src/sass/item.sass */
+.list__item__a {
+  color: #000000;
+}
+
+/*# sourceMappingURL=item.css.map */

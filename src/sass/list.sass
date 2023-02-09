@@ -1,0 +1,23 @@
+@import 'variables'
+
+.list
+    flex: 1
+    max-width: 282px
+    margin: 0 10px
+    padding: 12px 0 12px 12px
+    background-color: #ebecf0
+    border-radius: 10px
+    @include scroll
+    &__scroll
+        max-height: calc(100vh - 210px)
+        overflow-y: auto
+        padding-right: 12px
+    &:first-child
+        margin-left: 20px
+    &:last-child
+        margin-right: 20px
+    &__title
+        font-size: 1.125rem
+        font-weight: 400
+        margin-bottom: 10px
+        color: #000000

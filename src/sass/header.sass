@@ -1,0 +1,59 @@
+@import 'variables'
+
+.header
+    @include header-footer
+    &__title
+        color: #FFFFFF
+        text-decoration: none
+        font-size: 28px
+        &:hover
+            text-decoration: underline
+    &__user,
+    &__user__closed
+        background: url("../img/arrow-up.svg") no-repeat right center
+        @include transition
+        display: block
+        min-width: 60px
+        height: 40px
+        cursor: pointer
+        margin-top: 8px
+        position: relative
+        padding: 16px
+        &__closed
+            background: url("../img/arrow-down.svg") no-repeat right center
+    &__user-menu,
+    &__user-menu__closed
+        display: block
+        text-align: left
+        position: absolute
+        top: 64px
+        right: 7px
+        opacity: 1
+        visibility: visible
+        @include transition
+        background-color: #fff
+        border-radius: 5px
+        padding: 8px
+        min-width: 120px
+        min-height: 46px
+        font-size: 0.875rem
+        box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.3)
+        &__closed
+            opacity: 0
+            visibility: hidden
+            pointer-events: none
+            cursor: default
+            @include transition
+        &::before
+            content: url(../img/rombik.svg)
+            position: absolute
+            top: -8px
+            right: 31px
+        &__li
+            list-style: none
+            margin: 3px 0
+            &__a
+                color: black
+                &:hover
+                    text-decoration: underline
+

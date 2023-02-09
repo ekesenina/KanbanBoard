@@ -1,0 +1,164 @@
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 6, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text, .description__text__edit {
+  padding: 20px 28px;
+  height: calc(100vh - 195px);
+  width: 100vw;
+  margin: 0px 30px;
+  overflow-wrap: anywhere;
+  border-radius: 10px;
+  color: black;
+  background-color: #fff;
+}
+
+/* line 34, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__scroll::-webkit-scrollbar, .description__text__edit__scroll::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 12px;
+  padding: 0px 20px;
+}
+
+/* line 38, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__scroll::-webkit-scrollbar-track, .description__text__edit__scroll::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* line 41, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__scroll::-webkit-scrollbar-thumb, .description__text__edit__scroll::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+  border-radius: 20px;
+}
+
+/* line 44, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__scroll::-webkit-scrollbar-thumb:hover, .description__text__edit__scroll::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+  border-radius: 20px;
+}
+
+/* line 17, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__edit, .description__text__edit__edit {
+  background-color: #ebecf0;
+}
+
+/* line 19, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__title, .description__text__edit__title {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  overflow: hidden;
+}
+
+/* line 24, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__title__name, .description__text__edit__title__name {
+  display: flex;
+  width: 620px;
+}
+
+/* line 27, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__p, .description__text__edit__p {
+  margin: 35px 0 20px;
+  max-width: 100%;
+  font-size: 1.125rem;
+  height: 420px;
+}
+
+/* line 34, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__p__scroll::-webkit-scrollbar, .description__text__edit__p__scroll::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 12px;
+  padding: 0px 20px;
+}
+
+/* line 38, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__p__scroll::-webkit-scrollbar-track, .description__text__edit__p__scroll::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* line 41, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__p__scroll::-webkit-scrollbar-thumb, .description__text__edit__p__scroll::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+  border-radius: 20px;
+}
+
+/* line 44, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__p__scroll::-webkit-scrollbar-thumb:hover, .description__text__edit__p__scroll::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+  border-radius: 20px;
+}
+
+/* line 33, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__p__scroll, .description__text__edit__p__scroll {
+  max-height: calc(100% - 85px);
+  overflow-y: auto;
+  padding-right: 12px;
+}
+
+/* line 37, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__p:hover::after, .description__text__edit__p:hover::after {
+  color: black;
+}
+
+/* line 39, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__p::after, .description__text__edit__p::after {
+  content: "Edit";
+  color: #cbcbcb;
+  font-size: 0.875rem;
+  margin-left: 10px;
+}
+
+/* line 44, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.textarea {
+  font-family: inherit;
+  font-size: 1.125rem;
+  border: none;
+  padding: 10px;
+  margin-left: -10px;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  height: calc(100vh - 325px);
+  margin-top: 25px;
+  margin-bottom: 20px;
+  outline: none;
+  overflow: auto;
+  resize: none;
+}
+
+/* line 34, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.textarea__scroll::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 12px;
+  padding: 0px 20px;
+}
+
+/* line 38, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.textarea__scroll::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* line 41, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.textarea__scroll::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+  border-radius: 20px;
+}
+
+/* line 44, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.textarea__scroll::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=description.css.map */

@@ -1,0 +1,59 @@
+@mixin header-footer
+    height: 55px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    text-align: start
+    background-color: #0067A3
+    color: #FFFFFF
+    padding: 0px 20px
+
+@mixin transition
+    transition: all
+    transition-duration: 0.5s
+
+@mixin button
+    font-size: 1.125rem
+    border: none
+    cursor: pointer
+    border-radius: 5px
+    padding: 4px 6px 2px 4px
+    min-width: 100px
+
+@mixin input-select
+    font-size: 1.125rem
+    line-height: 1.25rem
+    padding: 7px 8px
+    margin-bottom: 15px
+    background-color: #fff
+    border-radius: 5px
+    border: none
+    outline-style: none
+
+@mixin scroll
+    &__scroll::-webkit-scrollbar
+        border-radius: 20px
+        width: 12px
+        padding: 0px 20px
+    &__scroll::-webkit-scrollbar-track 
+        background: #fff
+        border-radius: 20px
+    &__scroll::-webkit-scrollbar-thumb 
+        background: #cbcbcb
+        border-radius: 20px
+    &__scroll::-webkit-scrollbar-thumb:hover 
+        background: #aaa
+        border-radius: 20px
+
+
+    
+
+a
+    text-decoration: none
+
+// select
+//     max-width: 258px
+//     overflow: hidden
+
+
+$main-color: #0079BF

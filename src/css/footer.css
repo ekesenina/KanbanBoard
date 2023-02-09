@@ -1,0 +1,29 @@
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/footer.sass */
+.footer {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  background-color: #0067A3;
+  color: #FFFFFF;
+  padding: 0px 20px;
+  font-size: 1.125rem;
+}
+
+/* line 6, ../../Projects/kanban-board/my-app/src/sass/footer.sass */
+.footer__tasks {
+  display: flex;
+}
+
+/* line 8, ../../Projects/kanban-board/my-app/src/sass/footer.sass */
+.footer__tasks__active {
+  margin-right: 35px;
+}
+
+/*# sourceMappingURL=footer.css.map */

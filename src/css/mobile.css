@@ -1,0 +1,81 @@
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* ===== Header mobile styles ===== */
+@media screen and (max-width: 768px) {
+  /* line 7, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .header__title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+}
+
+/* ===== Main mobile styles ===== */
+@media screen and (max-width: 768px) {
+  /* line 15, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .main__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 19, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .list {
+    margin: 0px 0px 50px;
+    width: calc(100% - 12px);
+  }
+  /* line 23, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .main {
+    min-height: fit-content;
+  }
+  /* line 26, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .list:last-child {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  /* line 30, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .list:first-child {
+    margin-left: 0px;
+  }
+}
+
+/* ===== Main mobile description style ===== */
+@media screen and (max-width: 768px) {
+  /* line 37, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .description {
+    height: calc(100vh - 150px);
+  }
+  /* line 40, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .description__text, .description__text__edit {
+    margin: 0px 19px;
+    padding: 20px;
+    max-width: calc(100% - 65px);
+  }
+  /* line 46, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .textarea {
+    width: 100%;
+    height: calc(100vh - 315px);
+  }
+  /* line 50, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .p {
+    max-width: none;
+  }
+}
+
+/* ===== Footer mobile style ====== */
+@media screen and (max-width: 768px) {
+  /* line 58, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .footer {
+    font-size: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0;
+  }
+  /* line 68, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .footer__tasks__active {
+    margin-right: 10px;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */

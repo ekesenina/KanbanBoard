@@ -1,0 +1,23 @@
+@import 'variables'
+
+.button__add-card
+  @include button
+  color: #5e6c84
+  background-color: inherit
+  &:hover
+    background-color: #FFFFFF
+  &__disabled
+    @extend .button__add-card
+    color: #aaa
+    cursor: auto
+    &:hover
+      background-color: #ffffff00
+  &__text,
+  &__text__disabled
+    background: url(../img/add-card.svg) left 2px no-repeat
+    padding-left: 18px
+    &__disabled
+      background: url(../img/add-card-disabled.svg) left 2px no-repeat
+
+
+

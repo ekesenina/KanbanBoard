@@ -1,0 +1,622 @@
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  background-color: #0067A3;
+  color: #FFFFFF;
+  padding: 0px 20px;
+}
+
+/* line 5, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__title {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+/* line 9, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__title:hover {
+  text-decoration: underline;
+}
+
+/* line 11, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user, .header__user__closed {
+  background: url("../img/arrow-up.svg") no-repeat right center;
+  transition: all;
+  transition-duration: 0.5s;
+  display: block;
+  min-width: 60px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 8px;
+  position: relative;
+  padding: 16px;
+}
+
+/* line 22, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user__closed, .header__user__closed__closed {
+  background: url("../img/arrow-down.svg") no-repeat right center;
+}
+
+/* line 24, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu, .header__user-menu__closed {
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 64px;
+  right: 7px;
+  opacity: 1;
+  visibility: visible;
+  transition: all;
+  transition-duration: 0.5s;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  min-width: 120px;
+  min-height: 46px;
+  font-size: 0.875rem;
+  box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* line 41, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu__closed, .header__user-menu__closed__closed {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  cursor: default;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+/* line 47, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu::before, .header__user-menu__closed::before {
+  content: url(../img/rombik.svg);
+  position: absolute;
+  top: -8px;
+  right: 31px;
+}
+
+/* line 52, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu__li, .header__user-menu__closed__li {
+  list-style: none;
+  margin: 3px 0;
+}
+
+/* line 55, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu__li__a, .header__user-menu__closed__li__a {
+  color: black;
+}
+
+/* line 57, ../../Projects/kanban-board/my-app/src/sass/header.sass */
+.header__user-menu__li__a:hover, .header__user-menu__closed__li__a:hover {
+  text-decoration: underline;
+}
+
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/main.sass */
+.main {
+  min-height: calc(100vh - 150px);
+  padding: 20px 0px;
+  background-color: #0079BF;
+}
+
+/* line 7, ../../Projects/kanban-board/my-app/src/sass/main.sass */
+.main__content {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/list.sass */
+.list {
+  flex: 1;
+  max-width: 282px;
+  margin: 0 10px;
+  padding: 12px 0 12px 12px;
+  background-color: #ebecf0;
+  border-radius: 10px;
+}
+
+/* line 34, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.list__scroll::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 12px;
+  padding: 0px 20px;
+}
+
+/* line 38, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.list__scroll::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* line 41, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.list__scroll::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+  border-radius: 20px;
+}
+
+/* line 44, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.list__scroll::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+  border-radius: 20px;
+}
+
+/* line 11, ../../Projects/kanban-board/my-app/src/sass/list.sass */
+.list__scroll {
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
+  padding-right: 12px;
+}
+
+/* line 15, ../../Projects/kanban-board/my-app/src/sass/list.sass */
+.list:first-child {
+  margin-left: 20px;
+}
+
+/* line 17, ../../Projects/kanban-board/my-app/src/sass/list.sass */
+.list:last-child {
+  margin-right: 20px;
+}
+
+/* line 19, ../../Projects/kanban-board/my-app/src/sass/list.sass */
+.list__title {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/item.sass */
+.list__item {
+  list-style: none;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  padding: 7px 8px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow-wrap: anywhere;
+}
+
+/* line 12, ../../Projects/kanban-board/my-app/src/sass/item.sass */
+.list__item__a {
+  color: #000000;
+}
+
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card, .button__add-card__disabled {
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px 6px 2px 4px;
+  min-width: 100px;
+  color: #5e6c84;
+  background-color: inherit;
+}
+
+/* line 7, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card:hover, .button__add-card__disabled:hover {
+  background-color: #FFFFFF;
+}
+
+/* line 9, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card__disabled {
+  color: #aaa;
+  cursor: auto;
+}
+
+/* line 13, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card__disabled:hover {
+  background-color: #ffffff00;
+}
+
+/* line 15, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card__text, .button__add-card__text__disabled {
+  background: url(../img/add-card.svg) left 2px no-repeat;
+  padding-left: 18px;
+}
+
+/* line 19, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card__text__disabled, .button__add-card__text__disabled__disabled {
+  background: url(../img/add-card-disabled.svg) left 2px no-repeat;
+}
+
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/add-task.sass */
+.input {
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  padding: 7px 8px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline-style: none;
+  width: calc(100% - 16px);
+}
+
+/* line 7, ../../Projects/kanban-board/my-app/src/sass/add-task.sass */
+.button__submit__inactive {
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px 6px 2px 4px;
+  min-width: 100px;
+  background-color: inherit;
+  color: #aaa;
+  cursor: auto;
+  box-shadow: inset 0px 0px 3px 0px #aaa;
+}
+
+/* line 14, ../../Projects/kanban-board/my-app/src/sass/add-task.sass */
+.button__submit__active {
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px 6px 2px 4px;
+  min-width: 100px;
+  background-color: #0079bf;
+  color: #fff;
+}
+
+/* line 18, ../../Projects/kanban-board/my-app/src/sass/add-task.sass */
+.button__submit__active:hover {
+  background-color: #0067a3;
+}
+
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/move-task.sass */
+.select {
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  padding: 7px 8px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline-style: none;
+  background: url(../img/select-arrow.svg) no-repeat right 10px #fff;
+  appearance: none;
+  width: 100%;
+}
+
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 6, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text, .description__text__edit {
+  padding: 20px 28px;
+  height: calc(100vh - 195px);
+  width: 100vw;
+  margin: 0px 30px;
+  overflow-wrap: anywhere;
+  border-radius: 10px;
+  color: black;
+  background-color: #fff;
+}
+
+/* line 34, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__scroll::-webkit-scrollbar, .description__text__edit__scroll::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 12px;
+  padding: 0px 20px;
+}
+
+/* line 38, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__scroll::-webkit-scrollbar-track, .description__text__edit__scroll::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* line 41, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__scroll::-webkit-scrollbar-thumb, .description__text__edit__scroll::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+  border-radius: 20px;
+}
+
+/* line 44, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__scroll::-webkit-scrollbar-thumb:hover, .description__text__edit__scroll::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+  border-radius: 20px;
+}
+
+/* line 17, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__edit, .description__text__edit__edit {
+  background-color: #ebecf0;
+}
+
+/* line 19, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__title, .description__text__edit__title {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  overflow: hidden;
+}
+
+/* line 24, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__title__name, .description__text__edit__title__name {
+  display: flex;
+  width: 620px;
+}
+
+/* line 27, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__p, .description__text__edit__p {
+  margin: 35px 0 20px;
+  max-width: 100%;
+  font-size: 1.125rem;
+  height: 420px;
+}
+
+/* line 34, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__p__scroll::-webkit-scrollbar, .description__text__edit__p__scroll::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 12px;
+  padding: 0px 20px;
+}
+
+/* line 38, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__p__scroll::-webkit-scrollbar-track, .description__text__edit__p__scroll::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* line 41, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__p__scroll::-webkit-scrollbar-thumb, .description__text__edit__p__scroll::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+  border-radius: 20px;
+}
+
+/* line 44, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.description__text__p__scroll::-webkit-scrollbar-thumb:hover, .description__text__edit__p__scroll::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+  border-radius: 20px;
+}
+
+/* line 33, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__p__scroll, .description__text__edit__p__scroll {
+  max-height: calc(100% - 85px);
+  overflow-y: auto;
+  padding-right: 12px;
+}
+
+/* line 37, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__p:hover::after, .description__text__edit__p:hover::after {
+  color: black;
+}
+
+/* line 39, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.description__text__p::after, .description__text__edit__p::after {
+  content: "Edit";
+  color: #cbcbcb;
+  font-size: 0.875rem;
+  margin-left: 10px;
+}
+
+/* line 44, ../../Projects/kanban-board/my-app/src/sass/description.sass */
+.textarea {
+  font-family: inherit;
+  font-size: 1.125rem;
+  border: none;
+  padding: 10px;
+  margin-left: -10px;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  height: calc(100vh - 325px);
+  margin-top: 25px;
+  margin-bottom: 20px;
+  outline: none;
+  overflow: auto;
+  resize: none;
+}
+
+/* line 34, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.textarea__scroll::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 12px;
+  padding: 0px 20px;
+}
+
+/* line 38, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.textarea__scroll::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* line 41, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.textarea__scroll::-webkit-scrollbar-thumb {
+  background: #cbcbcb;
+  border-radius: 20px;
+}
+
+/* line 44, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+.textarea__scroll::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+  border-radius: 20px;
+}
+
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/footer.sass */
+.footer {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  background-color: #0067A3;
+  color: #FFFFFF;
+  padding: 0px 20px;
+  font-size: 1.125rem;
+}
+
+/* line 6, ../../Projects/kanban-board/my-app/src/sass/footer.sass */
+.footer__tasks {
+  display: flex;
+}
+
+/* line 8, ../../Projects/kanban-board/my-app/src/sass/footer.sass */
+.footer__tasks__active {
+  margin-right: 35px;
+}
+
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* ===== Header mobile styles ===== */
+@media screen and (max-width: 768px) {
+  /* line 7, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .header__title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+}
+
+/* ===== Main mobile styles ===== */
+@media screen and (max-width: 768px) {
+  /* line 15, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .main__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 19, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .list {
+    margin: 0px 0px 50px;
+    width: calc(100% - 12px);
+  }
+  /* line 23, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .main {
+    min-height: fit-content;
+  }
+  /* line 26, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .list:last-child {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  /* line 30, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .list:first-child {
+    margin-left: 0px;
+  }
+}
+
+/* ===== Main mobile description style ===== */
+@media screen and (max-width: 768px) {
+  /* line 37, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .description {
+    height: calc(100vh - 150px);
+  }
+  /* line 40, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .description__text, .description__text__edit {
+    margin: 0px 19px;
+    padding: 20px;
+    max-width: calc(100% - 65px);
+  }
+  /* line 46, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .textarea {
+    width: 100%;
+    height: calc(100vh - 315px);
+  }
+  /* line 50, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .p {
+    max-width: none;
+  }
+}
+
+/* ===== Footer mobile style ====== */
+@media screen and (max-width: 768px) {
+  /* line 58, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .footer {
+    font-size: 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0;
+  }
+  /* line 68, ../../Projects/kanban-board/my-app/src/sass/mobile.sass */
+  .footer__tasks__active {
+    margin-right: 10px;
+  }
+}
+
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+/* line 19, ../../Projects/kanban-board/my-app/src/sass/styles.sass */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 23, ../../Projects/kanban-board/my-app/src/sass/styles.sass */
+html {
+  font-family: 'main';
+  font-weight: 400;
+}
+
+/* line 27, ../../Projects/kanban-board/my-app/src/sass/styles.sass */
+body {
+  background-color: #0079BF;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=styles.css.map */

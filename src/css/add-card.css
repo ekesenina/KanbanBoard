@@ -1,0 +1,45 @@
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card, .button__add-card__disabled {
+  font-size: 1.125rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 4px 6px 2px 4px;
+  min-width: 100px;
+  color: #5e6c84;
+  background-color: inherit;
+}
+
+/* line 7, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card:hover, .button__add-card__disabled:hover {
+  background-color: #FFFFFF;
+}
+
+/* line 9, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card__disabled {
+  color: #aaa;
+  cursor: auto;
+}
+
+/* line 13, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card__disabled:hover {
+  background-color: #ffffff00;
+}
+
+/* line 15, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card__text, .button__add-card__text__disabled {
+  background: url(../img/add-card.svg) left 2px no-repeat;
+  padding-left: 18px;
+}
+
+/* line 19, ../../Projects/kanban-board/my-app/src/sass/add-card.sass */
+.button__add-card__text__disabled, .button__add-card__text__disabled__disabled {
+  background: url(../img/add-card-disabled.svg) left 2px no-repeat;
+}
+
+/*# sourceMappingURL=add-card.css.map */

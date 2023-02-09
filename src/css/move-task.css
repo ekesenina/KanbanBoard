@@ -1,0 +1,21 @@
+/* line 51, ../../Projects/kanban-board/my-app/src/sass/variables.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../../Projects/kanban-board/my-app/src/sass/move-task.sass */
+.select {
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  padding: 7px 8px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline-style: none;
+  background: url(../img/select-arrow.svg) no-repeat right 10px #fff;
+  appearance: none;
+  width: 100%;
+}
+
+/*# sourceMappingURL=move-task.css.map */

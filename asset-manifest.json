@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/kanban-test/static/css/main.e1a3fe19.css",
-    "main.js": "/kanban-test/static/js/main.04d617c1.js",
-    "static/js/787.28cb0dcd.chunk.js": "/kanban-test/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Roboto-Regular.ttf": "/kanban-test/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/user-avatar.svg": "/kanban-test/static/media/user-avatar.515ee5c5e1132ab91d5c3a46aae5445d.svg",
-    "index.html": "/kanban-test/index.html",
-    "static/media/arrow-up.svg": "/kanban-test/static/media/arrow-up.42c8f2cd6cf5fe1f9023.svg",
-    "static/media/arrow-down.svg": "/kanban-test/static/media/arrow-down.79b9a425c16f47c08777.svg",
-    "static/media/add-card-disabled.svg": "/kanban-test/static/media/add-card-disabled.8072e2c500a8e1bcc09d.svg",
-    "static/media/add-card.svg": "/kanban-test/static/media/add-card.87015637c2ec38700551.svg",
-    "static/media/cross.svg": "/kanban-test/static/media/cross.c53a25c2639d437008292d1bd985eb6a.svg",
-    "static/media/rombik.svg": "/kanban-test/static/media/rombik.36067fdaefd6365b519b.svg",
-    "static/media/select-arrow.svg": "/kanban-test/static/media/select-arrow.4843ed179a9b53c127dc.svg",
-    "main.e1a3fe19.css.map": "/kanban-test/static/css/main.e1a3fe19.css.map",
-    "main.04d617c1.js.map": "/kanban-test/static/js/main.04d617c1.js.map",
-    "787.28cb0dcd.chunk.js.map": "/kanban-test/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/kanbanBoard/static/css/main.a8882767.css",
+    "main.js": "/kanbanBoard/static/js/main.14de3489.js",
+    "static/js/787.28cb0dcd.chunk.js": "/kanbanBoard/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Roboto-Regular.ttf": "/kanbanBoard/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/user-avatar.svg": "/kanbanBoard/static/media/user-avatar.515ee5c5e1132ab91d5c3a46aae5445d.svg",
+    "index.html": "/kanbanBoard/index.html",
+    "static/media/arrow-up.svg": "/kanbanBoard/static/media/arrow-up.42c8f2cd6cf5fe1f9023.svg",
+    "static/media/arrow-down.svg": "/kanbanBoard/static/media/arrow-down.79b9a425c16f47c08777.svg",
+    "static/media/add-card-disabled.svg": "/kanbanBoard/static/media/add-card-disabled.8072e2c500a8e1bcc09d.svg",
+    "static/media/add-card.svg": "/kanbanBoard/static/media/add-card.87015637c2ec38700551.svg",
+    "static/media/cross.svg": "/kanbanBoard/static/media/cross.c53a25c2639d437008292d1bd985eb6a.svg",
+    "static/media/rombik.svg": "/kanbanBoard/static/media/rombik.36067fdaefd6365b519b.svg",
+    "static/media/select-arrow.svg": "/kanbanBoard/static/media/select-arrow.4843ed179a9b53c127dc.svg",
+    "main.a8882767.css.map": "/kanbanBoard/static/css/main.a8882767.css.map",
+    "main.14de3489.js.map": "/kanbanBoard/static/js/main.14de3489.js.map",
+    "787.28cb0dcd.chunk.js.map": "/kanbanBoard/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1a3fe19.css",
-    "static/js/main.04d617c1.js"
+    "static/css/main.a8882767.css",
+    "static/js/main.14de3489.js"
   ]
 }
